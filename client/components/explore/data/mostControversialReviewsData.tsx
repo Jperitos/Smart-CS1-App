@@ -1,0 +1,42 @@
+export const mostControversialReviews = [
+  {
+    id: 1,
+    title: "Yeezus",
+    artist: "Kanye West",
+    image: "https://i.scdn.co/image/ab67616d0000b2731dacfbc31cc873d132958af9",
+    averageRating: 3.0,
+    reviewCount: 1800,
+  },
+  {
+    id: 2,
+    title: "Metal Machine Music",
+    artist: "Lou Reed",
+    image: "https://i.scdn.co/image/ab67616d0000b2738e157275e2fc1a4b4fb62ae6",
+    averageRating: 2.9,
+    reviewCount: 720,
+  },
+  {
+    id: 3,
+    title: "Tranquility Base Hotel & Casino",
+    artist: "Arctic Monkeys",
+    image: "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27",
+    averageRating: 3.2,
+    reviewCount: 1450,
+  },
+  {
+    id: 4,
+    title: "The Life of Pablo",
+    artist: "Kanye West",
+    image: "https://i.scdn.co/image/ab67616d00001e022a7db835b912dc5014bd37f4",
+    averageRating: 3.1,
+    reviewCount: 2000,
+  },
+  {
+    id: 5,
+    title: "Reputation",
+    artist: "Taylor Swift",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fJDZR1dJPZCFQyGr2jZHV0ydBXdvhSuU_g&s",
+    averageRating: 3.3,
+    reviewCount: 2500,
+  },
+];
