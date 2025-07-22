@@ -62,8 +62,8 @@ export default function WelcomeScreen() {
           }}
         >
           <Image
-            source={require("../assets/icons/icon2.png")}
-            style={{ width: 300, height: 400, resizeMode: "contain", marginTop: 50 }}
+            source={require("../assets/icons/logo-final2.png")}
+            style={{ width: 250, height: 300, resizeMode: "contain", marginTop: 50 }}
           />
         </View>
 
@@ -83,7 +83,7 @@ export default function WelcomeScreen() {
               color: textColor,
             }}
           >
-            Getting Started
+           Smart Bins
           </Text>
           <Text
             style={{
@@ -94,7 +94,7 @@ export default function WelcomeScreen() {
               color: subText,
             }}
           >
-            Start discovering your {"\n"} favorite tunes
+            Where technology meets {"\n"} cleanliness
           </Text>
           <Pressable
             onPress={() => router.push("/auth/login")}
@@ -114,7 +114,7 @@ export default function WelcomeScreen() {
                 color: buttonText,
               }}
             >
-              Let's Go
+              Get's Started
             </Text>
           </Pressable>
         </View>
@@ -135,7 +135,7 @@ export default function WelcomeScreen() {
               color: textColor,
             }}
           >
-            MUSE
+            ECOBIN
           </Text>
           <Text
             style={{
@@ -145,7 +145,7 @@ export default function WelcomeScreen() {
               color: subText,
             }}
           >
-            Music Vibes
+            City of Naga, Cebu
           </Text>
         </View>
       </Animated.View>
