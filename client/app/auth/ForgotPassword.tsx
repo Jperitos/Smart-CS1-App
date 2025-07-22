@@ -36,7 +36,7 @@ export default function ForgotPasswordScreen() {
           <Input placeholder="Enter your email" value={email} onChangeText={setEmail} keyboardType="email-address" />
         </View>
 
-        <Button color="#D72638" variant="filled" style={{ paddingVertical: 15, marginTop: 20 }} onPress={handleSubmit}>
+        <Button color= "#347433" variant="filled" style={{ paddingVertical: 15, marginTop: 20 }} onPress={handleSubmit}>
           Send Reset Link
         </Button>
       </ScrollView>

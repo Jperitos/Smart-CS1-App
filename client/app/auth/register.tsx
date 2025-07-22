@@ -34,9 +34,9 @@ export default function RegisterScreen() {
         </View>
 
         <View style={styles.upperContainer}>
-          <Text style={[styles.logo, { color: textColor }]}>MUSE</Text>
+          <Text style={[styles.logo, { color: textColor }]}>ECOBIN</Text>
           <Text style={[styles.description, { color: subText }]}>
-            Create an account to begin your{"\n"}musical journey with Muse.
+            Your cleaner choices start here 
           </Text>
         </View>
 
@@ -77,7 +77,7 @@ export default function RegisterScreen() {
         </View>
 
         <Button
-          color={button}
+          color={"#347433"}
           variant="filled"
           style={{ paddingVertical: 15, marginTop: 20 }}
           onPress={() => register(fullName, email, password, confirmPassword)}
@@ -190,6 +190,6 @@ const styles = StyleSheet.create({
   signInLink: {
     fontSize: 13,
     fontFamily: "Poppins_400Regular",
-    color: "#D72638",
+    color: "#347433",
   },
 });

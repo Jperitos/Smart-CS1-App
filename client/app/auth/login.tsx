@@ -43,9 +43,9 @@ export default function LoginScreen({ navigation }: Props) {
         </View>
 
         <View style={styles.upperContainer}>
-          <Text style={[styles.logo, { color: textColor }]}>MUSE</Text>
+          <Text style={[styles.logo, { color: textColor }]}>ECOBIN</Text>
           <Text style={[styles.description, { color: subText }]}>
-            Log in now to start your musical{"\n"}journey with Muse.
+            Your cleaner choices start here 
           </Text>
         </View>
 
@@ -81,7 +81,7 @@ export default function LoginScreen({ navigation }: Props) {
         </View>
 
         <Button
-          color={button}
+          color={"#347433"}
           onPress={handleLogin}
           variant="filled"
           style={{ paddingVertical: 15, marginTop: 15 }}
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
   signInLink: {
     fontSize: 13,
     fontFamily: "Poppins_400Regular",
-    color: "#D72638",
+    color: "#347433",
   },
   socialContainer: {
     flexDirection: "row",

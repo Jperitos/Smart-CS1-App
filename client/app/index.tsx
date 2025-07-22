@@ -9,7 +9,7 @@ export default function WelcomeScreen() {
   const [index, setIndex] = useState(0);
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const { height } = useWindowDimensions();
-
+const [isHovered, setIsHovered] = useState(false);
   const textColor = useThemeColor({}, "text");
   const backgroundColor = useThemeColor({}, "background");
   const subText = useThemeColor({}, "subText");
@@ -63,7 +63,7 @@ export default function WelcomeScreen() {
         >
           <Image
             source={require("../assets/icons/logo-final2.png")}
-            style={{ width: 250, height: 300, resizeMode: "contain", marginTop: 50 }}
+            style={{ width: 250, height: 250, resizeMode: "contain", marginTop: 50 }}
           />
         </View>
 
@@ -76,14 +76,15 @@ export default function WelcomeScreen() {
         >
           <Text
             style={{
-              fontSize: 26,
+              fontSize: 30,
               fontFamily: "Poppins_700Bold",
               marginBottom: 10,
               textAlign: "center",
+               letterSpacing: 3,
               color: textColor,
             }}
           >
-           Smart Bins
+           WELCOME
           </Text>
           <Text
             style={{
@@ -96,15 +97,15 @@ export default function WelcomeScreen() {
           >
             Where technology meets {"\n"} cleanliness
           </Text>
-          <Pressable
+        <Pressable
             onPress={() => router.push("/auth/login")}
             style={{
               paddingVertical: 10,
-              paddingHorizontal: 24,
+              paddingHorizontal: 28,
               borderRadius: 50,
               alignItems: "center",
               marginTop: 20,
-              backgroundColor: button,
+              backgroundColor: "#347433", 
             }}
           >
             <Text
@@ -114,9 +115,10 @@ export default function WelcomeScreen() {
                 color: buttonText,
               }}
             >
-              Get's Started
+              Sign In
             </Text>
           </Pressable>
+
         </View>
 
         <View
